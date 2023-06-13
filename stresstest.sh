@@ -1,5 +1,4 @@
 #!/bin/bash
-
 #function to display menu
 display_menu() {
     clear
