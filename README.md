@@ -8,4 +8,4 @@ Then execute it with the following command:
 
 `./stress_test.sh`
 
-_NOTE: What made me create this script was the deployment of a Zabbix server, I had to stress my VM's to see if my triggers worked._
+_NOTE: What made me create this script was the deployment of a Zabbix server, I had to stress my Linux VM's to see if my triggers worked._
