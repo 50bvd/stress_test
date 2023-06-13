@@ -1,5 +1,4 @@
 #!/bin/bash
-
 #function to display menu
 display_menu() {
     clear
@@ -24,7 +23,6 @@ display_menu() {
     echo "======================================================"
     echo -n "Choose an option: "
 }
-
 #function to test the CPU
 test_cpu() {
     echo "Testing CPU..."
@@ -32,7 +30,6 @@ test_cpu() {
         :
     done
 }
-
 #function to test the memory
 test_memory() {
     echo "Testing memory..."
@@ -42,7 +39,6 @@ test_memory() {
         array+=($(seq 1 1024 $((1024*1024*size))))
     done
 }
-
 #function to test the disk
 test_disk() {
     echo "Testing disk..."
@@ -51,10 +47,9 @@ test_disk() {
     echo "Disk test completed."
     read -n 1 -s -r -p "Press any key to continue..."
 }
-
 #main loop of the program
 while true; do
-    display_menu
+    display_menu 
     read choice
 
     case $choice in
